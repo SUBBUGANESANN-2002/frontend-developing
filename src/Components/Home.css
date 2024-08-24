@@ -1,0 +1,35 @@
+/* Apply styles to the entire navigation component */
+div {
+    background-color: #007bff; /* Background color for the entire navigation component */
+    padding: 10px 0; /* Add padding to space the links from the edges */
+    text-align: center; /* Center the links horizontally */
+  }
+  
+  /* Style the navigation links */
+  ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some spacing between the links */
+  }
+  
+  /* Style the hyperlinks (links to "Signup" and "Login") */
+  a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for normal links */
+    font-weight: bold; /* Apply a bold font weight to links */
+    font-size: 16px; /* Font size for links */
+    transition: color 0.3s ease-in-out; /* Add a smooth color transition on hover */
+  
+    /* Optional: Add additional styles on hover */
+    /* background-color: #0056b3; */
+  }
+  
+  /* Style links on hover */
+  a:hover {
+    color: #0056b3; /* Text color for links on hover */
+  }
+  
